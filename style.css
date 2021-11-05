@@ -1,0 +1,34 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+}
+
+h1{
+    animation: bobur 6s infinite ease;
+    font-size: 80px;
+    font-style: italic;
+}
+
+
+@keyframes bobur{
+    0%{
+        color: red;
+    }
+    20%{
+        color: yellow;
+    }
+    40%{
+        color: greenyellow;
+    }
+    60%{
+        color: grey;
+    }
+    80%{
+        color: gold;
+    }
+    100%{
+        color: lime;
+    }
+}
